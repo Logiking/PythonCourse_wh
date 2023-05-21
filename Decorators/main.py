@@ -1,3 +1,4 @@
+
 def foo():
     print("foo")
 
@@ -29,7 +30,7 @@ def logging(func):
     return wrapper
 
 @logging
-def foo(name):
+def foo(name = 'wsm'):
     print(name)
 
 foo()
