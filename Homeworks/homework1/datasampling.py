@@ -1,4 +1,5 @@
 import random
+
 def datasampling(*args, **kwargs):
     result = []
     n = kwargs.get('num', -1)
@@ -24,3 +25,4 @@ def datasampling(*args, **kwargs):
         result.append(element)
 
     return result
+
